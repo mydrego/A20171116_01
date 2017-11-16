@@ -12,7 +12,7 @@ import java.util.Map;
 public class MainActivity extends AppCompatActivity {
     ListView lv1;
     SimpleAdapter  adapter;
-    ArrayList<Map<String,String>> mylist = new ArrayList<Map<String, String>>();
+    ArrayList<Map<String,String>> mylist = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
